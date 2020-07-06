@@ -1,0 +1,113 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 20vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+/*My CSS*/
+
+#navbarButtons a{
+  text-decoration: none;
+  padding: 3px;
+}
+
+#navbarButtons{
+  height: 30px;
+}
+
+
+#imgLogo{
+  height: 150px;
+  width: 150px;
+}
+#logoutButton{
+  float: left;
+  background-color: #00284d;
+  color: white;
+  border: 0;
+  margin: 5px;
+}
+#masterTitle{
+  display: inline;
+}
+.smallText{
+  display: inline;
+  color: #00284d;
+  font-weight: bold;
+}
+#yourInfoCard{
+  border-radius: 25px;
+  border: 2px solid #00284d;
+  padding: 20px;
+}
+#button{
+  background-color: #00284d;
+  color: white;
+  border: 0;
+  margin: 5px;
+}
+#searchFormBtn{
+  border: 1px solid #b3b3b3;
+  margin-left: 1px;
+  height: 30px;
+  color: #1a90ff;
+}
+#childCasesMsg{
+  display: inline;
+  color: red;
+  padding-left: 50px;
+}
+#tableBtn{
+  margin: 1px;
+  border: 1px solid gray;
+  background-color: #f2f2f2;
+}
+#childCaseDetails{
+  background-color: #99bbff;
+}
+.validationErrorText{
+  color: red;
+  display: inline;
+  margin-left: 5px;
+}
+
+
+/*Samo za testiranje*/
+#tmp{
+  background-color: yellow;
+}
